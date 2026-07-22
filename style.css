@@ -1,0 +1,105 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+header{
+position:fixed;
+width:100%;
+background:#111827;
+padding:15px 0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+width:85%;
+margin:auto;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+.logo{
+color:#38bdf8;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+section{
+padding:80px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#38bdf8;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.skills div{
+background:#1e293b;
+padding:15px 30px;
+border-radius:8px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+margin:20px auto;
+border-radius:10px;
+max-width:700px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#111827;
+}
